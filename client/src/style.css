@@ -8,8 +8,8 @@
 
   --olxGreenPrimary: #00262a;
   --olxGreenSecondary: #0c4b42;
-  --bgPrimary:#1c2225;
-  --bgSecondary:#181a1b;
+  --bgPrimary:#181a1b;
+  --bgSecondary:#1c2225;
 }
 * {
   margin: 0;
@@ -46,3 +46,50 @@ html{
 }
 
 /* Searchbar */
+#search {
+  background-color: var(--bgSecondary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 3% 0 3% 0;
+}
+#ItemSearchbar{
+  width: 50%;
+}
+#ItemSearchbarInput{
+  width: 100%;
+}
+#LocationMenu{
+  width: 25%;
+}
+#LocationMenuInput{
+  width: 100%;
+}
+.searchInput {
+  background-color: var(--bgPrimary);
+  border: none;
+  padding: 25px;
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  outline: none;
+  height: 75px;
+}
+
+#SearchButton {
+  cursor: pointer;
+}
+
+@keyframes colorFade {
+  0%   { background-color: inherit; }
+  100% { background-color: var(--olxGreenPrimary); }
+}
+
+#SearchButton :hover {
+  animation: colorFade 1s cubic-bezier(0.42, 0, 1, 1);;
+/* Poprawić animiacje */
+}
+
+::placeholder {
+  color: white;
+}
