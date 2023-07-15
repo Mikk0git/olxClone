@@ -1,0 +1,48 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+
+  --olxGreenPrimary: #00262a;
+  --olxGreenSecondary: #0c4b42;
+  --bgPrimary:#1c2225;
+  --bgSecondary:#181a1b;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+html{
+  background-color: var(--bgPrimary);
+
+}
+
+/* Navbar */
+#navbar{
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--olxGreenPrimary)
+}
+#navbarLogo{
+  margin: 1% 0 0 9%;
+}
+
+#navbarButtons{
+  display: flex;
+  justify-content:space-evenly ;
+  align-items: center;
+}
+.navbarButton{
+  margin-right: 50px;
+  white-space: nowrap;
+}
+#navbarNewItem{
+  margin-right: 140px;
+}
+
+/* Searchbar */
