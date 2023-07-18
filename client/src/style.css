@@ -93,8 +93,7 @@ html{
 
 /* Categories */
 #categories{
-  padding-left: 10%;
-  padding-right: 10%;
+
 
   margin-top: 5%;
   text-align: center;
@@ -106,8 +105,8 @@ html{
 
 .categoryCardsWrapper{
   margin-top: 5%;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 10%;
+  margin-right: 10%;
   display: grid;
   grid-template-columns: repeat(auto-fit,125px);
   grid-gap: 2%;
@@ -131,8 +130,46 @@ html{
   background-color: aquamarine;
   border: #00262a solid 0px;
   border-radius: 50%;
-  width: 110px;
-  height: 110px;
+  width: 100px;
+  height: 100px;
   margin-bottom: 30px;
+
+}
+
+
+/* Item Page */
+#itemPageContainer{
+  margin-left: 10%;
+  margin-right: 10%;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-areas: "left right";
+  grid-gap: 20px;
+  
+}
+#itemPageLeft {
+  grid-area: left;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#itemPageRight {
+  grid-area: right;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.itemPageElement{
+  width: 100%;
+  background-color: var(--bgSecondary);
+  margin-top: 20px;
+}
+
+#itemImgContainer{
+  height: 650px;
+}
+
+#itemInfo{
 
 }
