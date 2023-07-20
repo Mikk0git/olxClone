@@ -164,12 +164,130 @@ html{
   width: 100%;
   background-color: var(--bgSecondary);
   margin-top: 20px;
+  border: 0 black solid;
+  border-radius: 3px;
+  padding: 20px;
+
 }
 
 #itemImgContainer{
   height: 650px;
 }
 
-#itemInfo{
 
+/* Item Info */
+#itemInfo{
+  padding: 25px 20px 30px 20px;
+}
+#itemInfoWrapperTop{
+  display: flex;
+  justify-content: space-between;
+}
+
+#itemInfoDate{
+  font-size: x-small;
+}
+
+#itemInfoName{
+  font-weight:400;
+}
+
+#itemInfoPrice{
+  margin-top: 10px;
+  margin-bottom: 15px;
+
+}
+
+#itemInfoDescription{
+  margin-top: 10px;
+  font-size:smaller;
+  
+}
+
+#itemInfoWrapperBottom{
+  border-top: solid 1px gray;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#itemInfoId{
+  font-size: x-small;
+  margin-top: 10px;
+
+}
+
+#itemLogIn{
+  display: flex;
+  align-items: center;
+  justify-content:space-evenly;
+  height: 90px;
+  font-size:smaller;
+  font-weight: 400;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+
+/* #itemContact h5{
+  font-weight:normal;
+} */
+#itemContactWrapper{
+  margin-top: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+
+#itemSellerInfoWrapper{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#itemSellerInfoSellerScore{
+  background-color: #083a38;
+  border: 0px solid black;
+  border-radius: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 10px;
+  font-size:smaller;
+
+}
+
+#itemSellerInfoSellerScoreWrapper{
+  margin-bottom: 10px;
+  display: flex;
+  justify-content:start;
+
+}
+
+#itemSellerInfoMoreFromSeller{
+
+  font-size:smaller;
+
+}
+
+
+#itemLocationWrapper{
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#itemLaws{
+  font-size:small ;
+  color: lightgrey;
+}
+#itemLaws p{
+  margin-top: 10px;
+}
+#itemLaws li{
+  margin-left: 20px;
+}
+#itemLaws h6,h5{
+  font-size: initial;
 }
