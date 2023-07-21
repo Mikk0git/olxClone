@@ -1,6 +1,7 @@
 <script lang="ts">
 import { defineComponent } from 'vue';
 
+
 export default defineComponent({
   name: 'ItemPage',
   components: {
@@ -12,7 +13,11 @@ export default defineComponent({
 
 
 <template>
+  
+
+
   <div id="itemPageContainer">
+
     <div id="itemPageLeft">
       <div id="itemImgContainer" class="itemPageElement"></div>
 

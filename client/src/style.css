@@ -291,3 +291,16 @@ html{
 #itemLaws h6,h5{
   font-size: initial;
 }
+
+
+/* LoginPage */
+
+#loginPageContainer{
+  background-color:#0034a9 ;
+  display: flex;
+  justify-content: center;
+  align-items:center ;
+}
+#loginPageBox{
+  background-color: var(--bgPrimary);
+}

@@ -1,20 +1,23 @@
 <script setup lang="ts">
-import Navbar from './components/Navbar.vue'
-import Search from './components/Search.vue'
+
 // import Categories from './components/Categories.vue'
-import ItemPage from './components/ItemPage.vue';
+import Navbar from './components/Navbar.vue';
+import Search from './components/Search.vue';
+
+import {RouterView} from "vue-router"
 
 </script>
 
 <template>
+<div id="app">
+    <Navbar />
+    <Search/>
 
-<Navbar />
-<Search/>
-
-<ItemPage/>    
-<!-- <Categories/>   -->
+    <RouterView />
 
 
+
+</div>
 </template>
 
 <style scoped>
