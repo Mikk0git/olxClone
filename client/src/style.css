@@ -20,7 +20,22 @@
 html{
   background-color: var(--bgPrimary);
 
+
 }
+   /* unvisited link */
+   a:link,a:active,a:visited {
+    color: white;
+    text-decoration: none;
+
+  }
+
+
+  a:hover {
+    color:white;
+    opacity: 70%;
+    text-decoration: none;
+  }
+
 
 /* Navbar */
 #navbar{
